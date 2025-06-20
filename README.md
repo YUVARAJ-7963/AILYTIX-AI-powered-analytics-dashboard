@@ -43,6 +43,9 @@ AIlytix/
 │   │   └── charts/         # Chart components
 │   ├── package.json        # Node.js dependencies
 │   └── vite.config.ts      # Vite configuration
+├── output screenshot/      # Application screenshots
+│   ├── desktop/           # Desktop screenshots
+│   └── mobile/            # Mobile screenshots
 └── README.md
 ```
 
@@ -137,8 +140,11 @@ Create a `.env` file in the backend directory with the following variables:
 DATABASE_URL=postgresql://username:password@localhost/ailytix
 SECRET_KEY=your-secret-key-here
 GROQ_API_KEY=your-groq-api-key
-OPENAI_API_KEY=your-openai-api-key (optional)
 ```
+
+## Screenshots
+
+Check out the `output screenshot/` folder to see screenshots of the application running on both desktop and mobile devices.
 
 ## Contributing
 
@@ -153,4 +159,12 @@ This project is licensed under the MIT License.
 
 ## Contact
 
-For questions or support, please open an issue on GitHub. 
+**YUVARAJ P**
+
+- 📧 **Email**: [yuvar0890@gmail.com](mailto:yuvar0890@gmail.com)
+- 📱 **Phone**: [+91 7708907963](tel:+917708907963)
+- 💼 **LinkedIn**: [linkedin.com/in/yuva63](https://www.linkedin.com/in/yuva63/)
+- 🐙 **GitHub**: [github.com/YUVARAJ-7963](https://github.com/YUVARAJ-7963)
+- 📸 **Instagram**: [instagram.com/yuva___r_a_j](https://www.instagram.com/yuva___r_a_j/)
+
+For questions, support, or collaboration opportunities, feel free to reach out through any of the above channels! 
