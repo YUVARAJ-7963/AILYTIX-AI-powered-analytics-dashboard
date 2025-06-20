@@ -15,8 +15,9 @@ A full-stack AI-powered analytics platform with data visualization capabilities.
 ### Backend
 - **Python Flask**: Web framework
 - **SQLAlchemy**: Database ORM
-- **SQLite**: Database
+- **PostgreSQL**: Database
 - **Flask-CORS**: Cross-origin resource sharing
+- **psycopg2**: PostgreSQL adapter
 
 ### Frontend
 - **React**: UI library
@@ -51,6 +52,20 @@ AIlytix/
 - Python 3.8+
 - Node.js 16+
 - npm or yarn
+- PostgreSQL 12+
+
+### Database Setup
+1. Install PostgreSQL on your system
+2. Create a new database:
+   ```sql
+   CREATE DATABASE ailytix;
+   ```
+3. Create a `.env` file in the backend directory with your database credentials:
+   ```env
+   DATABASE_URL=postgresql://username:password@localhost/ailytix
+   SECRET_KEY=your-secret-key-here
+   GROQ_API_KEY=your-groq-api-key
+   ```
 
 ### Backend Setup
 1. Navigate to the backend directory:
@@ -113,6 +128,17 @@ AIlytix/
 - `POST /api/files/upload` - File upload
 - `GET /api/charts/data` - Get chart data
 - `POST /api/ai/analyze` - AI analysis
+
+## Environment Variables
+
+Create a `.env` file in the backend directory with the following variables:
+
+```env
+DATABASE_URL=postgresql://username:password@localhost/ailytix
+SECRET_KEY=your-secret-key-here
+GROQ_API_KEY=your-groq-api-key
+OPENAI_API_KEY=your-openai-api-key (optional)
+```
 
 ## Contributing
 

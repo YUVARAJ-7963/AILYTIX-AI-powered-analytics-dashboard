@@ -38,6 +38,10 @@ backend/.env
 *.db
 *.sqlite
 *.sqlite3
+# PostgreSQL
+*.sql
+*.dump
+*.backup
 
 # Logs
 *.log
@@ -75,4 +79,7 @@ backend/static/uploads/*
 
 # Temporary files
 *.tmp
-*.temp 
+*.temp
+
+# Alembic migrations (if using)
+# migrations/ 
